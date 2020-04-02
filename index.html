@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="index">
+<head>
+	<meta charset="UTF-8">
+	<title>Cosmos Chi Kung Society</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
+	<script type="text/javascript">
+	function getLastMod(){
+	var myFrm = document.getElementById('myIframe');
+	var lastModif = new Date(myFrm.contentWindow.document.lastModified);
+	document.getElementById('LastModified').innerHTML = "Prices correct as at: " + lastModif.toLocaleString();
+											}
+	</script>
+
+</head>
+
+<body>
+	<ul class="navbar">
+		<li><a class="active" href="index.html">Home</a></li>
+		<li class="dropdown">
+		<a href="javascript:void(0)" class="dropbtn">Disciplines</a>
+    <div class="dropdown-content">
+      <a href="yang.html">Yang Style Tai Chi</a>
+      <a href="qigong.html">Qi Gong</a>
+      <a href="lde.html">Long Distance Energy</a>
+			<a href="fire.html">Firewalking</a>
+    </div>
+		<li><a href="schedule.html">Classes</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">About</a>
+    <div class="dropdown-content">
+      <a href="about.html">Sifu Lawrence Der</a>
+      <a href="location.html">Location</a>
+      <a href="resources.html">Resources</a>
+    </div>
+	</ul>
+<div id="top">
+		<h1>Cosmos Chi Kung Society</h1>
+</div>
+<div id="contentleft">
+	<p>Welcome to the official webpage of the Cosmos Chi Kung Society.
+	<p>Please join me in one of my classes and you can discover the benefits of Qi Gong and Yang Tai Chi.
+	<p>- 謝錫鴻師傅 sifu Der</p>
+</div>
+<div id="sitemap">
+	<a href="sitemap.html">Sitemap</a>
+</div>
+<span id="LastModified"></span>
+
+<iframe id="myIframe" onload="getLastMod()" src="test.txt" style="display:none;">
+</iframe>
+
+</body>
+
+</html>
